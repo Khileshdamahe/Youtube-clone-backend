@@ -23,3 +23,14 @@ postman for testing our api
 6.for basic operation on mongodb you can learn it though
 mongodb tutorial point
 like create ,read ,delete ,update
+
+7.since we have to run node index.js again and again so weuse nodemon
+npm i nodemon
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+
+nodemon will start the server again with updated content
+
+8.npm i mongoose :it is for contenting with database
