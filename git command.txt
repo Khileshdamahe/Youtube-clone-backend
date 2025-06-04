@@ -1,0 +1,31 @@
+1.git init
+2.Add the GitHub remote URL
+Replace <your-repo-url> with the actual URL of your GitHub repo:
+
+bash
+Copy
+Edit
+git remote add origin https://github.com/your-username/your-repo-name.git
+🔁 If origin already exists (e.g., from cloning), you may need:
+
+bash
+Copy
+Edit
+git remote set-url origin https://github.com/your-username/your-repo-name.git
+
+3.git add .
+git commit -m "Your commit message"
+
+4. 4. Push to GitHub
+If you're pushing for the first time to an existing repo and want to push to the main branch:
+
+bash
+Copy
+Edit
+git push -u origin main
+If your branch is called master (older default):
+
+bash
+Copy
+Edit
+git push -u origin master

@@ -1,0 +1,2 @@
+1.what is the current version of node used?
+2.same for npm?

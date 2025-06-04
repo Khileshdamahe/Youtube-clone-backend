@@ -1,0 +1,25 @@
+1.npm init
+2.npm i express
+3.const express = require("express");
+
+const app = express();
+const port = 5000;
+
+app.get('/', (req, res) => {
+    res.send({
+        message: "Hi we have started our backend project"
+    })
+})
+
+app.listen(port,()=>{
+    console.log("Our backend project is running on port ")
+})
+4.to run these project index.js 
+node index.js
+
+5.we need mongodbcompass
+postman for testing our api
+
+6.for basic operation on mongodb you can learn it though
+mongodb tutorial point
+like create ,read ,delete ,update
