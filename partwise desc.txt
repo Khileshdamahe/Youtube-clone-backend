@@ -1,0 +1,2 @@
+1.to encrypt password we use which we receive in request
+ npm i bcryptjs
