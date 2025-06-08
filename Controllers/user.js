@@ -37,10 +37,12 @@ exports.signIn = async (req, res) => {
         } else {
             res.status(400).json({ error: 'Invalid credential' });
         }
+
     } catch (errorMsg) {
         res.status(500).json({ error: 'Server error' });
     }
 }
+
 
 exports.logout = async (req, res) => {
     res.clearCookie('token', cookieOptions).json({ message: 'Logged out successfully' });

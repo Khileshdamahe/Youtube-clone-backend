@@ -11,7 +11,7 @@
 "profilePic":"sdfer"
 }
 
-5.http://localhost:5000/auth/login
+5.http://localhost:4000/auth/login
 checking login via postman
 {
 "userName":"@codingkhilesh",
@@ -23,4 +23,70 @@ checking login via postman
     "success": "true"
 }
 
-6.
+6.install cookie parser
+npm i cookie-parser
+
+http://localhost:4000/api/video
+
+
+{
+"title":"Video1",
+"videoLink":"khileshdamahevideolink1",
+"thumbnail":"56789p"
+
+}
+
+make sure to login and get the cookie then use cookie and send in /video api
+
+7.to get all video http://localhost:4000/api/allVideo
+
+8.http://localhost:4000/api/getVideoById/890 it will give server error
+
+9.http://localhost:4000/api/getVideoById/6845ce69f9a8b47b3b520a00
+
+it will give :
+{
+    "sucess": "true",
+    "video": {
+        "_id": "6845ce69f9a8b47b3b520a00",
+        "user": "68457f081fe1ea18a0ac994e",
+        "title": "Video1",
+        "videoLink": "khileshdamahevideolink1",
+        "thumbnail": "56789p",
+        "videoType": "All",
+        "like": 0,
+        "dislike": 0,
+        "createdAt": "2025-06-08T17:54:49.779Z",
+        "updatedAt": "2025-06-08T17:54:49.779Z",
+        "__v": 0
+    }
+}
+
+10.http://localhost:4000/api/68457f081fe1ea18a0ac994e/channel it take userid
+{
+    "sucess": "true",
+    "video": [
+        {
+            "_id": "6845ce69f9a8b47b3b520a00",
+            "user": {
+                "_id": "68457f081fe1ea18a0ac994e",
+                "channelName": "khileshdamahe",
+                "userName": "@codingkhilesh",
+                "about": "I am a software engineer",
+                "profilePic": "sdfer",
+                "createdAt": "2025-06-08T12:16:08.996Z"
+            },
+            "title": "Video1",
+            "videoLink": "khileshdamahevideolink1",
+            "thumbnail": "56789p",
+            "videoType": "All",
+            "like": 0,
+            "dislike": 0,
+            "createdAt": "2025-06-08T17:54:49.779Z",
+            "updatedAt": "2025-06-08T17:54:49.779Z",
+            "__v": 0
+        }
+    ]
+}
+
+

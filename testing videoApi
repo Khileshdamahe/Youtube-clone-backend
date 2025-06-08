@@ -1,9 +1,13 @@
-http://localhost:5000/api/video
+http://localhost:4000/api/video
 
 {
-"user":"68457f081fe1ea18a0ac994e",
 "title":"Video1",
 "videoLink":"khileshdamahevideolink1",
 "thumbnail":"56789p"
-
 }
+
+
+add cookie :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODQ1N2YwODFmZTFlYTE4YTBhYzk5NGUiLCJpYXQiOjE3NDk0MDI2NzV9.BURril2D1KQeO8JtzqbJ3xMO4jMLkLQlWy7QrqXypt4
+
+
+install cookie parser
