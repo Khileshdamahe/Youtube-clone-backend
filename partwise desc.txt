@@ -3,4 +3,24 @@
 
  2.creating middleware
  3.npm i jsonwebtoken
+ 4.{
+"channelName":"khileshdamahe",
+"userName":"@codingkhilesh",
+"password":"123456",
+"about":"I am a software engineer",
+"profilePic":"sdfer"
+}
 
+5.http://localhost:5000/auth/login
+checking login via postman
+{
+"userName":"@codingkhilesh",
+"password":"123456"
+}
+
+{
+    "message": "Logged in successfully",
+    "success": "true"
+}
+
+6.
