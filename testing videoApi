@@ -1,0 +1,9 @@
+http://localhost:5000/api/video
+
+{
+"user":"68457f081fe1ea18a0ac994e",
+"title":"Video1",
+"videoLink":"khileshdamahevideolink1",
+"thumbnail":"56789p"
+
+}
