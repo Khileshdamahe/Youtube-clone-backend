@@ -1,2 +1,6 @@
 1.to encrypt password we use which we receive in request
  npm i bcryptjs
+
+ 2.creating middleware
+ 3.npm i jsonwebtoken
+
